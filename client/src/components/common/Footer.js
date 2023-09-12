@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Footer = () => {
 	const link = "https://sjinnovation.com";
 	const target = "_blank";
