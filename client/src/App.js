@@ -21,8 +21,8 @@ function App() {
 				<Navbar />
 
 				<Routes>
-				    <Route path="/register" component={Register} />
-                    <Route path="/login" component={Login} />  
+				    <Route path="/register" component={<Register/>} />
+                    <Route path="/login" component={<Login/>} />  
 					<Route exact path="/" element={<Home />} />
 					<Route exact path="/api/" element={<Home />} />
 					<Route exact path="/cruds" element={<CrudTable />} />					
